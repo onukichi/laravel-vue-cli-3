@@ -1,7 +1,7 @@
 module.exports = {
   // proxy API requests to Valet during development
   devServer: {
-    proxy: 'http://laracon.test'
+    proxy: 'https://laravel-vue-cli-3.herokuapp.com'
   },
 
   // output built static files to Laravel's public dir.
